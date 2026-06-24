@@ -162,6 +162,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "S/V Doubles",
 	},
 	{
+		name: "[Gen 9] randomlocke",
+		mod: 'randomlocke',
+		gameType: 'doubles',
+		ruleset: ["Standard"],
+	},
+	{
 		name: "[Gen 9] Random Doubles Battle",
 		mod: 'gen9',
 		gameType: 'doubles',
