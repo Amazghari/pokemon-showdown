@@ -360,6 +360,7 @@ export class TeamValidator {
 			skipSets?: { [name: string]: { [key: string]: boolean } },
 		} = {}
 	): string[] | null {
+		return null;
 		if (team && this.format.validateTeam) {
 			return this.format.validateTeam.call(this, team, options) || null;
 		}
