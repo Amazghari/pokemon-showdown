@@ -12,4 +12,8 @@ export const Scripts = {
 	checkCanLearn() {
 		return null;
 	},
+
+	checkLearnset() {
+		return true;
+	},
 };
