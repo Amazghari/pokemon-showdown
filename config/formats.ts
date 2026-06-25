@@ -165,7 +165,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] randomlocke",
 		mod: 'randomlocke',
 		gameType: 'doubles',
-		
+		ruleset: [
+		'Doubles',
+		'VGC',
+		'Team Preview',
+		'Standard',
+	],
 		onValidateTeam() {
 		return [];
 	},
